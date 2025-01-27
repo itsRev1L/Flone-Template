@@ -1,0 +1,35 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  padding: 20px 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  top: 80%;
+  left: 0;
+}
+.logoi {
+  width: 90px;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: #555252;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.navbar a:hover {
+  color: purple;
+}
+
+a {
+  text-decoration: none;
+}
