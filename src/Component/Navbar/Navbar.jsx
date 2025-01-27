@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <header className="header">
         <a href="" className="logo">
-          <img className="logoi" src="/img/logo.png" alt="" />
+          <img className="logoi" src="/Flone-Template/img/logo.png" alt="" />
         </a>
         <nav className="navbar">
           <a href="/" className="Nav_Text">
