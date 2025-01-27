@@ -12,7 +12,7 @@ import {
 
 const ItemList = ({ data }) => {
   const duplicatedItems = data.map((item) => (
-    <Col sm={12} md={6} lg={3} key={item.id}>
+    <Col sm={12} md={4} lg={3} key={item.id}>
       <Card style={{ width: "18rem" }}>
         <img alt={item.name} src={item.img} />
         <CardBody>
